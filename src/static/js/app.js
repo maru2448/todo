@@ -2,11 +2,10 @@ function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
-            <h2>
-                <Col>
-                    2211357 Muhammad Akmal Bin Mohammed Zaffir
-                </Col>
-            </h2>
+            <style>
+                h1 {text-align: center;}
+            </style>
+            <h2>2211357 Muhammad Akmal Bin Mohammed Zaffir</h2>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
